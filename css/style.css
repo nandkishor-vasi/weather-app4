@@ -776,6 +776,7 @@ li {
         width: 33px;
     }
     .top-left2 {
+        display: none;
         padding:  47px 66px 47px 0px;
         margin: 15px 138px 0px 99px;
     }
