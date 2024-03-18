@@ -720,13 +720,34 @@ li {
   @media screen and (max-width: 500px) {
     .main {
         height: auto;
-        width: 191%;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        /* padding: 0px 0px 0px 84px; */
+        gap: 0px;
+        justify-content: center;
+    }
+    footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .main .box {
+        width: 100%;
     }
     nav p {
+        font-size: 31px;
         padding-right: 0px;
     }
     nav img {
-        width: 120px;
+        width: 98px;
+        margin-left: 29px;
+    }
+    .hero {
+        margin-right: 0px;
+        padding: 40px;
     }
     .hero> :nth-child(1) {
         font-size: 24px;
@@ -734,33 +755,59 @@ li {
     .hero> :nth-child(2) {
         font-size: 18px;
     }
+    .current-weather-card {
+        padding: 40px 18px;
+    }
     nav div {
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
+        display: inline-grid;
+        gap: 36px;
+        margin-left: 6px;
     }
     .third {
         display: none;
-    }
-    .first {
-        display: grid;
     }
     .forecast-card {
         display: flex;
         height: auto;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 600px;
+        width: 390px;
+        padding: 40px 0px;
+    }
+    .top-left{
+        padding:  47px 0px 47px 19px;
+        display: grid;
+        width: auto;
+        margin: 5px 33px 0px 132px;
+    }
+    .top-right{
+        padding:  47px 3px 47px 7px;
+        width: auto;
+        display: grid;
+        margin: 5px 33px 0px 132px;
+    }
+    .first,
+    .btm-top,
+    .container-right {
+        width: auto;
+        display: grid;
     }
     .day-card {
-        padding: 36px 77px 26px 22px;
+        padding:  24px 61px 32px 20px;
     }
     .current-humidity {
         width: 100%;
+        padding: 40px 0px;
     }
     .footer-card-top {
         display: inline-grid;
         justify-content: space-evenly;
-        gap: 0px;
+        gap: 12px;
+    }
+    .footer-card {
+        padding: 0px;
     }
     .footer-card-bottm {
         display: inline-grid;
@@ -774,6 +821,12 @@ li {
     .search-icon button {
         height: 33px;
         width: 33px;
+    }
+    .top-left2 {
+        padding:  47px 66px 47px 0px;
+        margin: 15px 138px 0px 99px;
+    }
+    .top-right2 {
     }
   }
   
